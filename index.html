@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="pt-BR">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            width: 50vw;
+            height: 50vh;
+            justify-content:space-evenly;
+            align-items: center;
+            background-color: rgba(253, 28, 28, 0);
+        }
+
+        .vermelho{
+            background-color: tomato;
+            border-radius: 50px;
+            width: 20%;
+        }
+
+    </style>
+    <script src="./app.js" defer></script>
+    <title>Document</title>
+ 
+</head>
+<body>
+    <form id="form" action="">
+        <input id="numero1" type="text" placeholder="Digite o número 1" >
+        <input id="numero2" type="text" placeholder="Digite o número 2" >
+        <button id="calcular" type="button">CALCULAR</button>
+        <input type="text" id="resultado">
+        
+    </form>
+</body>
+</html>
