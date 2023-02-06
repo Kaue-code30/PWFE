@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+    <meta charset="pt-BR">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            height: 50%;
+            justify-content:space-evenly;
+            align-items: center;
+            
+        }
+
+        .verde{
+            background-color: green;
+            border-radius: 50px;
+            
+            
+        }
+        .vermelho{
+            background-color: red;
+            border-radius: 50px;
+            
+        }
+
+    </style>
+    <script src="./app2.js" defer></script>
+    <title>Document</title>
+ 
+</head>
+<body>
+    <form id="form" action="">
+        <input id="numero1" type="text" placeholder="Digite a primeira nota" >
+        <input id="numero2" type="text" placeholder="Digite a segunda nota" >
+        <button id="calcular" type="button">CALCULAR</button>
+        <input type="text" id="resultado">
+        
+    </form>
+</body>
+</html>
